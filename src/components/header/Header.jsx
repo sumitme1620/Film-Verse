@@ -7,7 +7,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "./style.scss";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
-import logo from "../../assets/movix-logo.svg";
+import logo from "../../assets/film_verse_logo.png";
 
 const Header = () => {
   const [show, setShow] = useState("top");
@@ -30,7 +30,7 @@ const Header = () => {
         setShow("show");
       }
     } else {
-      setShow("show");
+      setShow("top");
     }
     setLastScrollY(window.scrollY);
   };

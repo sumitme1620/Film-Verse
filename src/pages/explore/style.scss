@@ -99,4 +99,14 @@
       }
     }
   }
+  .resultNotFound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black-light);
+    object-fit: cover;
+  }
+  img {
+    width: 60%;
+  }
 }
